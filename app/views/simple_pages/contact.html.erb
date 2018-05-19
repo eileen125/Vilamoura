@@ -15,7 +15,7 @@
             </div>
           </div>
         </div>
-        
+
         <div class="panel panel-default">
           <div class="panel-heading" role="tab" id="headingThree">
             <h4 class="panel-title">
@@ -73,19 +73,4 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <!-- Can place script tags with JavaScript files here -->
-    <script type="text/javascript">
-    var $root = $('html, body');
-    $('.navbar-nav a').click(function() {
-      var href = $.attr(this, 'href');
-      if (href != undefined && href != '#') {
-        $root.animate({
-          scrollTop: $(href).offset().top
-        }, 500, function () {
-          window.location.hash = href;
-        });
-      }
-      return false;
-    });
-    </script>
   </body>
