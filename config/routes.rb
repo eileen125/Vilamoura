@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
 
-  get 'gemfile/jquery-rails'
-  get 'gem/jquery-rails'
+
+
   get 'simple_pages/about'
   get 'simple_pages/contact'
   get 'simple_pages/index'
